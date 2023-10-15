@@ -1,5 +1,5 @@
 # 3D attitude estimation using various filters
-Estimate the 3D orientation or attitude from 6 DOF IMU data (accelerometer and gyroscope) using only accelerometer data, only gyroscope data, a complimentary filter, a Madgwick filter, and an Unscented Kalman Filter. (Chack the full problem statements here [project1a](https://rbe549.github.io/rbe595/fall2023/proj/p1a/) and [project1b](https://rbe549.github.io/rbe595/fall2023/proj/p1b/))
+Estimate the 3D orientation or attitude from 6 DOF IMU data (accelerometer and gyroscope) using only accelerometer data, only gyroscope data, a complimentary filter, a Madgwick filter, and an Unscented Kalman Filter. (Check the full problem statements here [project1a](https://rbe549.github.io/rbe595/fall2023/proj/p1a/) and [project1b](https://rbe549.github.io/rbe595/fall2023/proj/p1b/))
 ## Steps to run the code
 - Install Numpy, Scipy, and Matplotlib libraries before running the code.
 - To run on the first training data in the `Wrapper.py` file in the 'main' function set the variables as:
