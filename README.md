@@ -15,13 +15,14 @@ For detailed description of the math see the report [here](Report.pdf).
 ## Plots and Animations
 For the train data 1, plots and animation showing roll, pitch, and yaw for all the filters:
 <p float="middle">
-<img src="outputs/p1a.png" width="500" height="450"/>
-<img src="outputs/p1b.png" width="500" height="450"/>
+<img src="outputs/p1a.png" width="600" height="450"/>
+<img src="outputs/p1b.png" width="600" height="450"/>
 </p>
 <p float="middle">
-<img src="outputs/output1.gif" width="500" height="500"/>
+<img src="outputs/output1.gif" width="500" height="450"/>
 </p>
 Remaining plots are present in the report along with links to rest of the animations.
+
 ## References
 1. S. O. H. Madgwick, A. J. L. Harrison and R. Vaidyanathan, "Estimation of IMU and MARG orientation using a gradient descent algorithm," 2011 IEEE International Conference on Rehabilitation Robotics, Zurich, Switzerland, 2011, pp. 1-7, doi: 10.1109/ICORR.2011.5975346.
 2. E. Kraft, "A quaternion-based unscented Kalman filter for orientation tracking," Sixth International Conference of Information Fusion, 2003. Proceedings of the, Cairns, QLD, Australia, 2003, pp. 47-54, doi: 10.1109/ICIF.2003.177425.
