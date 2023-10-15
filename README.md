@@ -10,6 +10,6 @@ Estimate the 3D orientation or attitude from 6 DOF IMU data (accelerometer and g
   ```
   python Wrapper.py
   ```
-  ## Report
-  For detailed description of the math see the report [here](Report.pdf).
+## Report
+For detailed description of the math see the report [here](Report.pdf).
   
