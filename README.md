@@ -15,8 +15,8 @@ For detailed description of the math see the report [here](Report.pdf).
 ## Plots and Animations
 For the train data 1, plots and animation showing roll, pitch, and yaw for all the filters:
 <p float="middle">
-<img src="outputs/p1a.png" width="450" height="450"/>
-<img src="outputs/p1b.png" width="450" height="450"/>
+<img src="outputs/p1a.png" width="500" height="450"/>
+<img src="outputs/p1b.png" width="500" height="450"/>
 </p>
 <p float="middle">
 <img src="outputs/output1.gif" width="500" height="500"/>
