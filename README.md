@@ -21,7 +21,7 @@ For the train data 1, plots and animation showing roll, pitch, and yaw for all t
 <p float="middle">
 <img src="outputs/output1.gif" width="750" height="350"/>
 </p>
-Remaining plots are present in the report and links to rest of the animations are [train1](https://www.youtube.com/watch?v=QqZrlZt3IWk),[train2](https://youtu.be/YaMS5Z0NG9c),[train3](https://youtu.be/Bt4ej2pWsNQ), [train4](https://youtu.be/VEVUZr9buow), [train5](https://youtu.be/5XoWXI-sQrE), [train6](https://youtu.be/J3JOtn7tDPE).
+Remaining plots are present in the report and links to rest of the animations are [train1](https://www.youtube.com/watch?v=QqZrlZt3IWk) ,[train2](https://youtu.be/YaMS5Z0NG9c) , [train3](https://youtu.be/Bt4ej2pWsNQ) , [train4](https://youtu.be/VEVUZr9buow) , [train5](https://youtu.be/5XoWXI-sQrE) , [train6](https://youtu.be/J3JOtn7tDPE) .
 
 ## References
 1. S. O. H. Madgwick, A. J. L. Harrison and R. Vaidyanathan, "Estimation of IMU and MARG orientation using a gradient descent algorithm," 2011 IEEE International Conference on Rehabilitation Robotics, Zurich, Switzerland, 2011, pp. 1-7, doi: 10.1109/ICORR.2011.5975346.
