@@ -1,19 +1,15 @@
-## Project 1a:
-- Numpy, Matplotlib, and SciPy libraries must be installed before running the code.
-
-- In Code folder the Wrapper.py and helperfuncs.py contains all the necessary functions. For the code to run the data should be stored in the following folder:
-        IMU data = Data/Train/IMU/IMU_filename
-        Vicon data = Data/Train/Vicon/vicon_filename
-
-- For example if the 1st train set needs to be plotted, in the Wrapper.py file in the 'main' function set the variables as:
-        IMU_filename = 'imuRaw1'
-        vicon_filename = 'viconRot1'
-        For the other training data change the variables accordingly and run the file.
-- For test data, keep the data in the following location:
-	IMU data = Data/Test/IMU/test_filename
-- To run the test data uncomment the corresponding code and comment out the code relevant to accessing the train data as mentioned in the python file. Also to run the test data, comment out all the vicon instances and set 'viconrpy' variable to zero. While running the test data, wherever the initial orientation is used set it to zeros.
-
-- Relative paths from file location are used to load the data.
-
-- Code to generate the videos is commented out and is mentioned in the 'main' function. If videos need to be generated uncomment the code. (It should be noted that the video generation takes more time)
-- 'rotplot.py' and IMU params files should be present in the Project folder at the given or appropriate locations.
+# Magical Filtering for attitude estimation
+Estimate the 3D orientation or attitude from 6 DOF IMU data (accelerometer and gyroscope) using only accelerometer data, only gyroscope data, a complimentary filter, a Madgwick filter, and a Unscented Kalman Filter.
+## Steps to run the code
+- Install Numpy, Scipy, and Matplotlib libraries before running the code.
+- To run on the first training data in the Wrapper.py file in the 'main' function set the variables as:
+	IMU_filename = 'imuRaw1' and vicon_filename = 'viconRot1'
+- For the other data change the variables accordingly and run the file.
+- To generate 3D animations uncomment the specified lines in 'main' function. 
+- In Code folder:
+  ```
+  python Wrapper.py
+  ```
+  ## Report
+  For detailed description of the math see the report [here](Report.pdf).
+  
